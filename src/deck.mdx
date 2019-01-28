@@ -1,0 +1,167 @@
+
+import { Appear, Image} from 'mdx-deck'
+import { Split } from 'mdx-deck/layouts'
+import { CodeSurfer } from "mdx-deck-code-surfer"
+import dracula from "prism-react-renderer/themes/dracula"
+import Coloured from './components/coloured.js'
+
+export { default as theme } from './theme'
+
+<!-- Remove this code and replace with your slides-->
+
+## Como iniciar en el desarrollo de aplicaciones con react
+
+<img src='https://i.postimg.cc/pX8KKzZr/React_Ironhack.png' width='300px'/>
+
+[@jossDz](https://twitter.com/JossDz)
+
+---
+
+<h2>Jose Carlos (<Coloured color='#FF79C6'>Joss</Coloured>)</h2>
+
+<Appear>
+  <h4>- Desarrollador fullstack</h4>
+  <h4>- Teacher assistant en Ironhack</h4>
+  <h4>- Promotor de comunidades</h4>
+</Appear>
+
+export default Split
+---
+
+<h2>Para el taller necesitaremos:</h2>
+
+* [Node y npm](https://nodejs.org/en/)
+* [Create-react-app](https://github.com/facebook/create-react-app)
+* [json-server](https://github.com/typicode/lowdb)
+* [Un editor de código](https://code.visualstudio.com/)
+
+
+export default Split
+---
+
+<h1><Coloured color='#FF79C6'>React</Coloured></h1>
+
+<p>Una <ins>librería de Javascript</ins> para desarrollar interfaces de usuario.</p>
+
+---
+
+<h1><Coloured color='#FF79C6'>Errores</Coloured> en común al iniciar:</h1>
+
+<Appear>
+  <p> 1.  Creer que react es una herramienta independiente. </p>
+</Appear>
+
+---
+
+<Image src='https://i.postimg.cc/zGFWcN41/separado.png' size='15em'/>
+
+<Appear>
+  <h1>✘</h1>
+</Appear>
+
+export default Split
+
+---
+
+<Image src='https://i.postimg.cc/htBTsvyr/separado-1.png' size='15em'/>
+
+<Appear>
+  <h1>✘</h1>
+</Appear>
+
+export default Split
+
+---
+
+<Image src='https://i.postimg.cc/PqfZGckv/real.png' size='15em'/>
+
+<Appear>
+  <h1>✔︎</h1>
+</Appear>
+
+export default Split
+
+---
+
+2. No conocer bien el lenguaje de programación
+
+---
+
+<CodeSurfer
+  title="Primer acercamiento a React"
+  notes="React es puro javascript!"
+  code={require("!raw-loader!./Docs/example-1.js")}
+  lang="jsx"
+  theme={dracula}
+  showNumbers={false}
+  dark={false}
+  steps={[
+    { lines: [2], notes: 'tenemos funciones,' },
+    { lines: [3], notes: 'variables,' },
+    { lines: [5, 7], notes: 'condicionales,'},
+    { tokens: {12: [1, 4,5,6]}, notes: 'clases y herencia,'},
+    { lines: [13, 14, 18], notes:'propiedades y métodos de dicha clase.'}
+  ]}
+/>
+
+---
+
+<h2><Coloured color='#FEDD56'>React</Coloured> + <Coloured color='#EE4BAE'>es6</Coloured> = 💖</h2>
+
+<Appear>
+  <p>- Const</p>
+  <p>- Arrow function</p>
+  <p>- Lexical this</p>
+  <p>- Rest</p>
+  <p>- Spread operator</p>
+  <p>- Template literals</p>
+  <p>- Destructuring</p>
+  <p>- Async await</p>
+  <p>...</p>
+</Appear>
+
+export default Split
+
+---
+
+<p>3. Continuar con react sin deshacerte de la caja negra.</p>
+
+<Appear>
+  <p><img src='https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Npm-logo.svg/2000px-Npm-logo.svg.png' width='150px'/></p>
+  <p><img src='https://raw.githubusercontent.com/yarnpkg/assets/master/yarn-kitten-full.png' width='150px' /></p>
+  <p><img src='https://raw.githubusercontent.com/webpack/media/master/logo/icon-square-big.png' width='150px'/></p>
+  <p><img src='https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Babel_Logo.svg/1200px-Babel_Logo.svg.png' width='150px' /></p>
+</Appear>
+
+export default Split
+
+---
+
+<h1>a codear</h1>
+
+<a href='https://jsbin.com/?html,js,output' target="_blank"><img src='http://static.jsbin.com/images/dave.min.svg'/></a>
+
+---
+
+<h1>React sin <Coloured color='#FF79C6'>configuración</Coloured></h1>
+
+[Code mirror](http://codemirror.io/joss)
+
+`create-react-app`
+
+
+---
+
+# Resumen
+
+React es una librería de Javascript, por tanto hay que verla como tal.
+
+---
+
+# Gracias 🤘🏼
+
+Si tienes alguna duda o comentario me encuentras en: 
+
+* [Linkedin](https://www.linkedin.com/feed/)
+* [Twitter](https://twitter.com/JossDz)
+* [Github](https://github.com/Jossdz)
